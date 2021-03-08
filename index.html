@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <style>
+        .categories ul li{
+            list-style: none;
+            
+        }
+        .categories ul{
+            padding-left: 0;
+        }        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark" style="opacity: 0.8; border-bottom:1px solid whitesmoke;">
+            <div class="container">
+                <a href="#" style="text-decoration: none;"class="navbar-brand"><h2><i class="fas fa-blog"></i> Blog Site</h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item"><a href="#" class="nav-link text-light active">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron bg-dark">
+            <div class="container text-light pt-5">
+                <h1  style="font-family: 'Kufam', cursive;">Title of a longer featured blog post</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ipsam esse maxime sapiente neque incidunt eum placeat quos laudantium autem!
+                <br><br><a class="text-light " href="#">Continue Reading..</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img class="w-100" style="border-radius: 5px;;" src="https://resimdiyari.com/_data/i/upload/2012/10/14/20121014183753-5a8ae0b6-me.jpg" alt="">
+                            <br><br><h3>Post Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero voluptas vitae fuga nemo, necessitatibus voluptates, autem tempore, sit nulla a dolor? Sunt, odio vitae quae sed optio in quia.</p>
+                            <button class="btn btn-primary">Read More</button>
+                        </div>
+                        <div class="card-footer pb-0">
+                            <p class="text-muted">Posted on January 1, 2017</p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img class="w-100" style="border-radius: 5px;;" src="https://resimdiyari.com/_data/i/upload/2012/10/14/20121014183741-35e8fecf-me.jpg" alt="">
+                            <br><br><h3>Post Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero voluptas vitae fuga nemo, necessitatibus voluptates, autem tempore, sit nulla a dolor? Sunt, odio vitae quae sed optio in quia.</p>
+                            <button class="btn btn-primary">Read More</button>
+                        </div>
+                        <div class="card-footer pb-0">
+                            <p class="text-muted">Posted on January 1, 2017</p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img class="w-100" style="border-radius: 5px;;" src="https://resimdiyari.com/_data/i/upload/2012/10/14/20121014183732-ee8b1f92-me.jpg" alt="">
+                            <br><br><h3>Post Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero voluptas vitae fuga nemo, necessitatibus voluptates, autem tempore, sit nulla a dolor? Sunt, odio vitae quae sed optio in quia.</p>
+                            <button class="btn btn-primary">Read More</button>
+                        </div>
+                        <div class="card-footer pb-0">
+                            <p class="text-muted">Posted on January 1, 2017</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="text-muted">Search</h4>                            
+                        </div>
+                        <div class="card-body">
+                            <input class="form-control float-left" placeholder="Searching for..." type="text" name="" id="">
+                            <br><br>
+                            <span class="input-group-btn float-right">
+                                <button type="button" class="btn btn-secondary">Go!</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="text-muted">Categories</h4>                            
+                        </div>
+                        <div class="card-body categories">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li><a href="">Web Design</a></li>
+                                        <li><a href="">Html</a></li>
+                                        <li><a href="">Angular</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li><a href="">JavaScript</a></li>
+                                        <li><a href="">Css</a></li>
+                                        <li><a href="">Tutorials</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="card mb-5">
+                        <div class="card-header">
+                            <h4 class="text-muted">Side Widget</h4>  
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in blanditiis ipsa aliquid nemo laudantium cupiditate saepe exercitationem similique quis repellendus consequatur commodi alias iste magni velit, molestias nihil ratione.
+                        </div>
+                    </div>    
+                </div>                                 
+            </div>
+            
+        </div>        
+    </main>
+    <footer>
+        <div class="footer bg-dark py-5">
+            <p class="text-light text-center">Copyright your Website <i class="far fa-copyright"></i></p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/f8d1550985.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
